@@ -17,6 +17,7 @@ print(3 * (60 * x ** 2 + (3 * x) / 9) + 2 * x - (4 / 3) * x - x **(1/2))
 # At what time will the alarm go off? Write a program that prints the answer.
 # Hint: for the best solution, you will need the modulo operator.
 print(728 % 12 + 1)
+# Lee - Would like to see this formatted to tell me what I'm looking at.  It is the right answer, but you should use variables (that's the assignment) and should format the print. (-1)
 
 
 #PROBLEM 3 (Wholesale Books - 3pts)
@@ -26,6 +27,8 @@ print(728 % 12 + 1)
 c = 27.95
 cost = x/2 + 75 * 67 + 4
 print(round(cost, 2))
+
+# Lee - you make a variable c, but use x from previous problem.  Better variable names will save you here.  Also, make variables for the other numbers.  It makes your code more readable, and gives you the ability to easily adapt the problem later.  (-1)
 
 #PROBLEM 4 (Dining Room Chairs - 3pts)
 # You purchase eight chairs for your dining room.
@@ -37,6 +40,8 @@ tax_percent = 0.095
 units = 8
 cost = (chair_price * 8) * tax_percent
 print(round(cost, 2))
+
+# Lee - You have only calculated tax here instead of the total amount for the purchase (-1)
 
 #PROBLEM 5 (Area of Circle - 3pts)
 # Write code that can compute the area of circle.
@@ -94,3 +99,5 @@ b -= a
 a += b
 b *= -1
 print( "a =", a, "and b =", b)
+
+# Lee - supposed to do this in TWO more lines, not THREE.
